@@ -1,0 +1,10 @@
+{
+  "name": "hormigon",
+  "license": "MIT",
+  "scripts": {
+    "start": "cd client && yarn start",
+    "build": "cd client && yarn build",
+    "test": "cd client && yarn test --env=jsdom",
+    "start:prod": "cd client && NODE_ENV=production node build/server.js"
+  }
+}
